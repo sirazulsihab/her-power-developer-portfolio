@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding: 0;
+}
+/* primary styles */
+.primary-btn{
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 2px;
+    padding: 8px 10px;
+    color:#fff;
+}
+.menu-area{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+ list-style-type: none;
+  padding: 0 13px;
+}
+nav ul li a{
+ text-decoration: none;
+
+}
