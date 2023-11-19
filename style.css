@@ -7,7 +7,12 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 header{
-    margin:60px 120px;
+    padding:60px 120px;
+    padding-right: 0;
+    padding-bottom: 0;
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .primary-btn{
     background-color: #FD6E0A;
@@ -65,4 +70,27 @@ nav ul li a{
     border-radius: 2px;
     padding:10px 15px;
     color:#FD6E0A;
+}
+/* about me styles */
+.section-head{
+    margin-top:150px;
+}
+.section-head h2{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.section-head p{
+    margin: 0 270px;
+    text-align: center;
+    line-height: 2;
+}
+.about-me{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.about-me-single{
+    padding: 20px;
 }
