@@ -94,3 +94,42 @@ nav ul li a{
 .about-me-single{
     padding: 20px;
 }
+.skills{
+    margin: 50px 200px;
+    display: flex;
+}
+.skill{
+    padding: 40px;
+    box-shadow: 5px 10px #eeeded;
+}
+/* resume styles */
+.resume-wrapper{
+    display: flex;
+    margin: 50px 200px;
+}
+.resume-wrapper h3{
+    color:#474747;
+    padding-bottom: 25px;
+    font-size: 30px;
+}
+.resume-wrapper h4{
+    color:#474747;
+    font-size: 20px;
+}
+.resume-wrapper h5{
+    color:#757575;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 15px 0;
+}
+.resume-wrapper p{
+    color:#757575;
+    font-size: 16px;
+    line-height: 2;
+}
+.resume-wrapper hr{
+    margin: 50px 0;
+}
+.education-area{
+    margin-right: 30px;
+}
