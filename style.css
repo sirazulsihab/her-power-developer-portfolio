@@ -95,7 +95,7 @@ nav ul li a{
     padding: 20px;
 }
 .skills{
-    margin: 50px 200px;
+    margin: 50px 120px;
     display: flex;
 }
 .skill{
@@ -105,7 +105,7 @@ nav ul li a{
 /* resume styles */
 .resume-wrapper{
     display: flex;
-    margin: 50px 200px;
+    margin: 50px 120px;
 }
 .resume-wrapper h3{
     color:#474747;
@@ -132,4 +132,31 @@ nav ul li a{
 }
 .education-area{
     margin-right: 30px;
+}
+.download-cv-btn{
+    display: block;
+    margin: 0 auto;
+}
+/* contact styles */
+.contact-area{
+    display: flex;
+    background-color: #FFF8F3;
+    padding:120px;
+    gap: 100px;
+}
+.contact-area h2{
+    margin-bottom: 25px;
+}
+.contact-area p{
+    color: #474747;
+}
+.social-icon img{
+    margin-top:30px;
+    margin-right: 25px;
+}
+form input, textarea{
+    border: 0;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 10px;
 }
